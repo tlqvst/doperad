@@ -1,6 +1,6 @@
 import { Group, Button } from '@mantine/core';
 import { Container, Image, Header as MantineHeader } from '@mantine/core';
-import useLogout from '../../../hooks/auth/useLogout/useLogout';
+import { useLogout } from '../../../features/auth/api/logout/logout';
 
 const Header = () => {
   const logoutMutation = useLogout();

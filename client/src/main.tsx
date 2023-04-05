@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AppRoutes from './routes/AppRoutes';
+import AppRoutes from './routes';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { MantineProvider } from '@mantine/core';
 import { ModalsProvider } from '@mantine/modals';

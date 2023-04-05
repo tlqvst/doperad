@@ -1,5 +1,6 @@
-import useLoginStatus from '../../hooks/auth/useLoginStatus/useLoginStatus';
+import { Loader } from '@mantine/core';
 import { useErrorHandler } from 'react-error-boundary';
+import { useLoginStatus } from '../../features/auth/api/loginStatus/loginStatus';
 
 /**
  * Inits the application, run any application dependant queries here
